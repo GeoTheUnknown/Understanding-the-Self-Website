@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./nav.css" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
@@ -16,54 +15,39 @@
       href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
       rel="stylesheet"
     />
-
     <link rel="icon" type="image/png" href="images/tab-logo.png" />
     <title>Understanding the Self</title>
   </head>
   <body>
-    <!-- NAVIGATION +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-    <nav>
-      <div class="logo">
-        <h1>
-          <a href="./index.html">UTS</a>
-        </h1>
-      </div>
-      <ul class="main-links">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./index.html#about-link">About</a></li>
-        <li>
-          <div class="chapter-menu">
-            <div class="chapter-head">
-              <a class="chapter-link" href="./index.html#chapters">Chapters</a>
-              <button class="view-more-btn">+</button>
-            </div>
-            <ul class="dropdown">
-              <li><a href="#chapter-1">Chapter 1</a></li>
-              <li><a href="#chapter-2">Chapter 2</a></li>
-              <li><a href="#chapter-3">Chapter 3</a></li>
-              <li><a href="#chapter-4">Chapter 4</a></li>
-              <li><a href="#chapter-5">Chapter 5</a></li>
-              <li><a href="#chapter-6">Chapter 6</a></li>
-              <li><a href="#chapter-7">Chapter 7</a></li>
-              <li><a href="#chapter-8">Chapter 8</a></li>
-              <li><a href="#chapter-9">Chapter 9</a></li>
-              <li><a href="#chapter-10">Chapter 10</a></li>
-              <li><a href="#chapter-11">Chapter 11</a></li>
-              <li><a href="#chapter-12">Chapter 12</a></li>
-              <li><a href="#chapter-13">Chapter 13</a></li>
-              <li><a href="#chapter-14">Chapter 14</a></li>
-            </ul>
+    <!-- HEADER +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <header>
+      <a class="logo" href="./index.html">UTS</a>
+      <nav class="menu-content">
+        <a href="./index.html">Home</a>
+        <a href="./index.html#about-link">About</a>
+        <div class="dropdown">
+          <a href="./index.html#chapters">Chapter</a>
+          <div class="dropdown-content">
+            <a href="#chapter-1">Chapter 1</a>
+            <a href="#chapter-2">Chapter 2</a>
+            <a href="#chapter-3">Chapter 3</a>
+            <a href="#chapter-4">Chapter 4</a>
+            <a href="#chapter-5">Chapter 5</a>
+            <a href="#chapter-6">Chapter 6</a>
+            <a href="#chapter-7">Chapter 7</a>
+            <a href="#chapter-8">Chapter 8</a>
+            <a href="#chapter-9">Chapter 9</a>
+            <a href="#chapter-10">Chapter 10</a>
+            <a href="#chapter-11">Chapter 11</a>
+            <a href="#chapter-12">Chapter 12</a>
+            <a href="#chapter-13">Chapter 13</a>
+            <a href="#chapter-14">Chapter 14</a>
           </div>
-        </li>
-        <li><a href="https://drive.google.com/drive/folders/1Xg_08UMc263bvNMuBtaP6itYt5Wx9vEC">Answer Key</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <!-- NAVIGATION END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+        </div>
+        <a href="https://drive.google.com/drive/folders/1Xg_08UMc263bvNMuBtaP6itYt5Wx9vEC">Answer Key</a>
+      </nav>
+    </header>
+    <!-- HEADER END +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <!-- MAIN +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <main>
       <section data-aos="fade-right" data-aos-delay="100" class="content">
@@ -328,6 +312,5 @@
       AOS.init();
     </script>
     <script src="script.js"></script>
-    <script src="./nav.js"></script>
   </body>
 </html>
